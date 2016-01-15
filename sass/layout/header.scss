@@ -1,0 +1,45 @@
+/*===================
+ header
+ ====================*/
+
+/*===================
+ navbar dropdown
+ ====================*/
+
+.dropdown-menu {
+  min-width: 590px;
+  height: 240px;
+}
+
+nav.fixed {
+  position: fixed;
+  right: 0;
+  z-index: 1030;
+  border-radius: 0;
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+/*===================
+ випадаюче меню без кліка
+ ====================*/
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
+
+/*===================
+ dropdown menu 2 col
+ ====================*/
+
+.dropdown-menu li {
+  float: right;
+  width: 50%;
+  white-space: nowrap;
+  text-overfolow: ellipsis;
+  overflow: hidden;
+}
+
+
+
+

@@ -1,0 +1,16 @@
+
+
+.social {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+  border-radius: 1.375em;
+  border: 0.03em solid transparent;
+  background: transparent;
+
+  &:hover, &:focus {
+    background: $bg-bright;
+    box-shadow: 0 0 3.35em 0.713em $bg-bright;
+  }
+}
