@@ -12,9 +12,21 @@ body {
 }
 
 
-p {
+h6 {
   font-family: 'Geo', sans-serif;
 }
 
 
+h2 {
+  color: $h2-color-1;
+  font-size: 2.25em;
+  font-weight: 100;
+  line-height: 2.25em;
+}
 
+p {
+  color: $p-color-2;
+  font-size: 0.75em;
+  font-weight: 300;
+  margin: 15px auto;
+}

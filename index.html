@@ -39,11 +39,9 @@
             <div class="navbar">
                 <div class="container-fluid">
                     <div class="navbar-header navbar-default">
-                        <form class="navbar-form navbar-left" role="search">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search">
-                            </div>
-                            <button type="submit" class="btn btn-default">Submit</button>
+                        <form action="#" method="get" class="clearfix">
+                            <input type="search" placeholder="Поиск" name="main-search">
+                            <input type="image" src="img/search.svg" alt="Поиск">
                         </form>
                         <button type="button" class="navbar-toggle" data-toggle="collapse"
                                 data-target="#responsive-menu">
@@ -58,7 +56,7 @@
                         <ul class="nav navbar-nav">
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Новости</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu dropdown-menu-right">
                                     <li><a href="#">Купить продукцию сейчас</a></li>
                                     <li><a href="#">Новости</a></li>
                                     <li><a href="#">Я рекомендую</a></li>
@@ -67,12 +65,12 @@
                                     <li><a href="#">Мои партнеры по бизнесу</a></li>
                                     <li><a href="#">Добро пожаловать в команду</a></li>
                                     <li><a href="#">О компании</a></li>
-                                    <li><a href="#">Сайт независимого консультанта компании</a></li>
+                                    <li><a href="#">Сайт компании</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Рекомендую</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu dropdown-menu-right">
                                     <li><a href="#">Кондиционер</a></li>
                                     <li><a href="#">Бальзам для век</a></li>
                                     <li><a href="#">Динамический увлажняющий крем</a></li>
@@ -94,19 +92,18 @@
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Приглашаю</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu dropdown-menu-right">
                                     <li><a href="#">Регистрация</a></li>
                                     <li><a href="#">Присоединяйтесь</a></li>
                                     <li><a href="#">Форум</a></li>
                                     <li><a href="#">Блог</a></li>
                                     <li><a href="#">Вебинары</a></li>
-                                    <li><a href="#">Узнайте подробнее почему выгодня сотрудничать с нами и быть в нашей
-                                        команде</a></li>
+                                    <li><a href="#">Cотрудничать с нами</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Акции</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu dropdown-menu-right">
                                     <li><a href="#">Кондиционер</a></li>
                                     <li><a href="#">Бальзам для век</a></li>
                                     <li><a href="#">Динамический увлажняющий крем</a></li>
@@ -128,12 +125,12 @@
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Контакти</a>
-                                <ul class="dropdown-menu">
+                                <ul class="dropdown-menu dropdown-menu-right">
                                     <li><a href="#">О компании</a></li>
                                     <li><a href="#">Видео</a></li>
                                     <li><a href="#">Мой бизнес</a></li>
                                     <li><a href="#">Мои партнеры по бизнесу</a></li>
-                                    <li><a href="#">Сайт независимого консультанта компании</a></li>
+                                    <li><a href="#">Сайт консультанта компании</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -145,6 +142,20 @@
 
     </header>
 
+
+
+
+       <form role="form" class="form-inline">
+        <div class="form-group">
+         <label for="email">Email</label>
+         <input type="email" class="form-control" id="email" placeholder="Введите email">
+        </div>
+        <div class="form-group">
+         <label for="pass">Пароль</label>
+         <input type="password" class="form-control" id="pass" placeholder="Пароль">
+        </div>
+        <button type="submit" class="btn btn-success">Войти</button>
+       </form>
 
     <!-- footer -->
 

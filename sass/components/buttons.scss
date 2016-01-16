@@ -1,5 +1,4 @@
 
-
 .social {
   margin: 0;
   padding: 0;
@@ -12,5 +11,26 @@
   &:hover, &:focus {
     background: $bg-bright;
     box-shadow: 0 0 3.35em 0.713em $bg-bright;
+  }
+}
+
+.buy-lg {
+  @include btn;
+  background-color: $bg-bright;
+  box-shadow: 0 0.125em 0 rgb(171, 133, 0);
+  text-shadow: 0 -0.062em 0 rgba(171, 133, 0, 0.75);
+  color: #ffffff;
+  font-size: 1em;
+  padding: 3% 12% 2% 12%;
+
+  &:hover, &:focus {
+    background: rgb(171, 133, 0);
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  img {
+    vertical-align: middle;
+    margin: 0;
   }
 }
