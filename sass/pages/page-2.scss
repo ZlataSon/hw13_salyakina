@@ -9,10 +9,17 @@
 .catalog {
   background: #ffffff;
 
-  .news {
+  p {
+    font-weight: 900;
+    color: $text-price-1;
+    font-size: 1em;
+  }
+}
+
+.news {
     margin: 45px 0 35px 0;
 
-    a {
+  a {
       font-size: 0.75em;
       color: $p-color-2;
       margin-right: 10px;
@@ -22,11 +29,6 @@
         text-decoration: none;
       }
     }
-  }
-
-  p {
-    font-weight: 900;
-    color: $text-price-1;
-    font-size: 1em;
-  }
 }
+
+

@@ -15,27 +15,6 @@
     font-weight: 400;
   }
 
-  .down {
-    color: $text-price-1;
-    font-size: 0.75em;
-    font-weight: 400;
-
-    img {
-      vertical-align: middle;
-      margin: 0;
-    }
-  }
-
-  .inline {
-    display: inline-block;
-    list-style: none;
-    color: $p-color-2;
-    font-size: 0.75em;
-    font-weight: 300;
-    margin: 0px 5px 5px 0;
-    padding: 0;
-  }
-
   .inline:nth-child(even) {
     font-weight: 500;
   }
@@ -91,6 +70,10 @@
     opacity: 0.1;
   }
 }
+
+/*===================
+ page-3 two
+ ====================*/
 
 .two {
   background: #c2bcb7 url("../img/bg-p3.png") no-repeat scroll center top;

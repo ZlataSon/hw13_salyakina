@@ -23,3 +23,20 @@ header form {
     margin-top: -10px;
   }
 }
+
+input[type="text"], input[type="email"] {
+  background-color: #ffffff;
+
+  height: 45px;
+  border-radius: 2px;
+  padding: 0 15px;
+  color: rgb(175, 175, 175);
+}
+
+.form-inline .form-control {
+  display: inline-block;
+  width: 230px;
+  vertical-align: middle;
+}
+
+

@@ -41,3 +41,16 @@
     color: #ffffff;
   }
 }
+
+.btn-success {
+  padding: 13px 45px 10px 45px;
+  background: $bg-bright;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active {
+  color: #FFF;
+  background-color: rgb(171, 133, 0);
+  border: none;
+}
