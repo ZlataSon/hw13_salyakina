@@ -1,3 +1,6 @@
+/*===================
+   base
+   ====================*/
 
 body {
   background: #ffffff;
@@ -11,11 +14,9 @@ body {
   min-width: 320px;
 }
 
-
-h6 {
-  font-family: 'Geo', sans-serif;
-}
-
+/*===================
+   typography
+   ====================*/
 
 h2 {
   color: $h2-color-1;
@@ -39,10 +40,24 @@ h3 {
   line-height: 1.25em;
 }
 
+@media screen and (max-width: 900px) {
 
+  a, p, h2, h3, h5 {
+    font-size: 0.7em;
+    line-height: 1em;
+  }
+
+  h2 {
+    font-weight: 900;
+  }
+
+  h3, h5 {
+    font-weight: 700;
+  }
+}
 
 /*===================
-   5 col bootstrap
+   5 col. in bootstrap
    ====================*/
 
 .col-xs-1-5,

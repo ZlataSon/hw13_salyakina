@@ -1,4 +1,8 @@
 
+/*===================
+   button
+   ====================*/
+
 .social {
   margin: 0;
   padding: 0;
@@ -18,7 +22,7 @@
   @include btn;
   padding: 3% 12% 2% 12%;
 
-  &:hover, &:focus {
+  &:hover, &:focus, &:active, &:link, &:visited {
     background: rgb(171, 133, 0);
     text-decoration: none;
     color: #ffffff;
@@ -49,7 +53,8 @@
   border: none;
 }
 
-.btn-success:hover, .btn-success:focus, .btn-success:active {
+.btn-success:hover, .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success:link,
+.btn-success:visited, .btn-success:active:focus, .btn-success:active:hover {
   color: #FFF;
   background-color: rgb(171, 133, 0);
   border: none;
